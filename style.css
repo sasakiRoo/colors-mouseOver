@@ -1,0 +1,20 @@
+*, *::before, *::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.shape{
+	width: 100px;
+	height: 100px;
+	background-color: #FF2727;
+	transition: 1s ease-in;
+}
+
+/* class .shape diatas merupakan bentuk awal yang nanti akan diubah melalui javascript */
